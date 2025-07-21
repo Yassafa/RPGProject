@@ -25,7 +25,7 @@ public class MainMenuScreen implements Screen {
         game.batch.setProjectionMatrix(game.viewport.getCamera().combined);
 
         game.batch.begin();
-        game.font.draw(game.batch, "Welcome to RPGP!!! ", 1, 1.5f);
+        game.font.draw(game.batch, "Welcome to RPGProject", 1, 1.5f);
         game.font.draw(game.batch, "Tap anywhere to begin!", 1, 1);
         game.batch.end();
 

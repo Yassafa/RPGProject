@@ -14,7 +14,7 @@ public class RPGP extends Game {
     @Override
     public void create() {
         batch = new SpriteBatch();
-        font = new BitmapFont();
+        font = FontLoader.loadCustomFont(32);
         viewport = new FitViewport(8, 5);
         font.setUseIntegerPositions(false);
         font.getData().setScale(viewport.getWorldHeight() / Gdx.graphics.getHeight());
